@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" width="14" height="14">
+	<title>footer</title>
+	<defs>
+		<image  width="14" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAAXNSR0IB2cksfwAAAOpQTFRFqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqamp/dhSNwAAAE50Uk5TgMuGEQD/T9DTLxlHHltoWhIcbHdVFHWhjTbl+98sQej64rvnTeMrP/D27cDk4Co+81cEPdQDIMXszwcdwQjC8esuRN64tCI0v6gGGJzMtxKEXAAAAJRJREFUeJxNyncXgWAchuE3fo/smVlmQlkhkew9v//XkXHo/u8652aM83jpFwPgc5GHP+BiMBQmFyPRWDyRTAnpTDaXJ1YQpWKpXKnWRECuMxlKo9kCVF4D2qyDbq+vQR8MBR3qmyMNxpjMCfDhFNaM7Pmf/ILspUMF0mu2vlxhvdmq2C3I5BzujcPxdLYuV7rdjccTVxwTkfU/tj0AAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="footer">
+		<use id="linkedin" href="#img1" x="0" y="0" />
+	</g>
+</svg>

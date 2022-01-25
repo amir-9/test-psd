@@ -1,0 +1,79 @@
+@media (min-width: 1px) {
+    #section3 .my-container {
+        margin-right: 0;
+    }
+
+    #section3 .owl-nav {
+        left: 0;
+    }
+}
+
+@media (min-width: 576px) {
+    #section3 .my-container {
+        margin-right: calc((100% - 576px) / 2);
+    }
+
+    #section3 .owl-nav {
+        left: calc((100% - 576px) / 2);
+    }
+}
+
+@media (min-width: 768px) {
+    #section3 .my-container {
+        margin-right: calc((100% - 768px) / 2);
+    }
+
+    #section3 .owl-nav {
+        left: calc((100% - 768px) / 2);
+    }
+}
+
+@media (min-width: 992px) {
+    #section3 .my-container {
+        margin-right: calc((100% - 992px) / 2);
+    }
+
+    #section3 .owl-nav {
+        left: calc((100% - 992px) / 2);
+    }
+}
+
+@media (min-width: 1200px) {
+    #section3 .my-container {
+        margin-right: calc((100% - 1200px) / 2);
+    }
+
+    #section3 .owl-nav {
+        left: calc((100% - 1200px) / 2);
+    }
+}
+
+@media (min-width: 1400px) {
+    #section3 .my-container {
+        margin-right: calc((100% - 1400px) / 2);
+    }
+}
+
+@media (max-width: 1111px) {
+    #footer .input {
+        width: 320px;
+    }
+
+    #footer .input input {
+        width: 240px;
+    }
+}
+
+@media (max-width: 991px) {
+    #section4 .bg {
+        background: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #section2 .owl-prev, #section2 .owl-next {
+        width: 70px;
+        right: 0;
+        top: 40.2%;
+    }
+}

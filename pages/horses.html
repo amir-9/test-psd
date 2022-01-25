@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>اسب سواران</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.1.3-dist/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="../assets/css/blog-style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/horses-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+
+<header id="header" class="d-none d-md-flex">
+    <nav class="navbar">
+        <div class="sign-in">
+            <span class="user">
+                <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M20.822 18.096c-3.439-.794-6.641-1.49-5.09-4.418 4.719-8.912 1.251-13.678-3.732-13.678-5.081 0-8.464 4.949-3.732 13.678 1.597 2.945-1.725 3.641-5.09 4.418-2.979.688-3.178 2.143-3.178 4.663l.005 1.241h10.483l.704-3h1.615l.704 3h10.483l.005-1.241c.001-2.52-.198-3.975-3.177-4.663zm-8.231 1.904h-1.164l-.91-2h2.994l-.92 2z" />
+                </svg>
+            </span>
+            <span class="search">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path d="M18.125,15.804l-4.038-4.037c0.675-1.079,1.012-2.308,1.01-3.534C15.089,4.62,12.199,1.75,8.584,1.75C4.815,1.75,1.982,4.726,2,8.286c0.021,3.577,2.908,6.549,6.578,6.549c1.241,0,2.417-0.347,3.44-0.985l4.032,4.026c0.167,0.166,0.43,0.166,0.596,0l1.479-1.478C18.292,16.234,18.292,15.968,18.125,15.804 M8.578,13.99c-3.198,0-5.716-2.593-5.733-5.71c-0.017-3.084,2.438-5.686,5.74-5.686c3.197,0,5.625,2.493,5.64,5.624C14.242,11.548,11.621,13.99,8.578,13.99 M16.349,16.981l-3.637-3.635c0.131-0.11,0.721-0.695,0.876-0.884l3.642,3.639L16.349,16.981z"></path>
+                </svg>
+            </span>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">دوره های آموزشی</a></li>
+                <li class="mid"><a href="#">نژاد ها</a></li>
+                <li><a href="#">معرفی</a></li>
+                <li><a href="#">باشگاه ها</a></li>
+            </ul>
+        </div>
+        <div class="logo"><a href="./index.html"><img src="../assets/images/logo.png" alt="logo"></a></div>
+    </nav>
+    <div id="searchForm1" class="search-box opacity-0 d-none justify-content-center">
+        <button class="close-search">
+            <svg class="svg-icon" viewBox="0 0 20 20">
+                <path fill="none"
+                      d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08 c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469 c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304 c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
+            </svg>
+        </button>
+        <form class="input align-self-center">
+            <label>
+                <input type="search" placeholder="کلمه مورد نظر را وارد کنید..">
+            </label>
+            <button>
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path fill="none"
+                          d="M12.323,2.398c-0.741-0.312-1.523-0.472-2.319-0.472c-2.394,0-4.544,1.423-5.476,3.625C3.907,7.013,3.896,8.629,4.49,10.102c0.528,1.304,1.494,2.333,2.72,2.99L5.467,17.33c-0.113,0.273,0.018,0.59,0.292,0.703c0.068,0.027,0.137,0.041,0.206,0.041c0.211,0,0.412-0.127,0.498-0.334l1.74-4.23c0.583,0.186,1.18,0.309,1.795,0.309c2.394,0,4.544-1.424,5.478-3.629C16.755,7.173,15.342,3.68,12.323,2.398z M14.488,9.77c-0.769,1.807-2.529,2.975-4.49,2.975c-0.651,0-1.291-0.131-1.897-0.387c-0.002-0.004-0.002-0.004-0.002-0.004c-0.003,0-0.003,0-0.003,0s0,0,0,0c-1.195-0.508-2.121-1.452-2.607-2.656c-0.489-1.205-0.477-2.53,0.03-3.727c0.764-1.805,2.525-2.969,4.487-2.969c0.651,0,1.292,0.129,1.898,0.386C14.374,4.438,15.533,7.3,14.488,9.77z"></path>
+                </svg>
+            </button>
+        </form>
+    </div>
+</header>
+<div class="container">
+    <aside id="side">
+        <h3>
+            <span>مرتب سازی بر اساس</span>
+            <span>
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path
+                            d="M17.498,11.697c-0.453-0.453-0.704-1.055-0.704-1.697c0-0.642,0.251-1.244,0.704-1.697c0.069-0.071,0.15-0.141,0.257-0.22c0.127-0.097,0.181-0.262,0.137-0.417c-0.164-0.558-0.388-1.093-0.662-1.597c-0.075-0.141-0.231-0.22-0.391-0.199c-0.13,0.02-0.238,0.027-0.336,0.027c-1.325,0-2.401-1.076-2.401-2.4c0-0.099,0.008-0.207,0.027-0.336c0.021-0.158-0.059-0.316-0.199-0.391c-0.503-0.274-1.039-0.498-1.597-0.662c-0.154-0.044-0.32,0.01-0.416,0.137c-0.079,0.106-0.148,0.188-0.22,0.257C11.244,2.956,10.643,3.207,10,3.207c-0.642,0-1.244-0.25-1.697-0.704c-0.071-0.069-0.141-0.15-0.22-0.257C7.987,2.119,7.821,2.065,7.667,2.109C7.109,2.275,6.571,2.497,6.07,2.771C5.929,2.846,5.85,3.004,5.871,3.162c0.02,0.129,0.027,0.237,0.027,0.336c0,1.325-1.076,2.4-2.401,2.4c-0.098,0-0.206-0.007-0.335-0.027C3.001,5.851,2.845,5.929,2.77,6.07C2.496,6.572,2.274,7.109,2.108,7.667c-0.044,0.154,0.01,0.32,0.137,0.417c0.106,0.079,0.187,0.148,0.256,0.22c0.938,0.936,0.938,2.458,0,3.394c-0.069,0.072-0.15,0.141-0.256,0.221c-0.127,0.096-0.181,0.262-0.137,0.416c0.166,0.557,0.388,1.096,0.662,1.596c0.075,0.143,0.231,0.221,0.392,0.199c0.129-0.02,0.237-0.027,0.335-0.027c1.325,0,2.401,1.076,2.401,2.402c0,0.098-0.007,0.205-0.027,0.334C5.85,16.996,5.929,17.154,6.07,17.23c0.501,0.273,1.04,0.496,1.597,0.66c0.154,0.047,0.32-0.008,0.417-0.137c0.079-0.105,0.148-0.186,0.22-0.256c0.454-0.453,1.055-0.703,1.697-0.703c0.643,0,1.244,0.25,1.697,0.703c0.071,0.07,0.141,0.15,0.22,0.256c0.073,0.098,0.188,0.152,0.307,0.152c0.036,0,0.073-0.004,0.109-0.016c0.558-0.164,1.096-0.387,1.597-0.66c0.141-0.076,0.22-0.234,0.199-0.393c-0.02-0.129-0.027-0.236-0.027-0.334c0-1.326,1.076-2.402,2.401-2.402c0.098,0,0.206,0.008,0.336,0.027c0.159,0.021,0.315-0.057,0.391-0.199c0.274-0.5,0.496-1.039,0.662-1.596c0.044-0.154-0.01-0.32-0.137-0.416C17.648,11.838,17.567,11.77,17.498,11.697 M16.671,13.334c-0.059-0.002-0.114-0.002-0.168-0.002c-1.749,0-3.173,1.422-3.173,3.172c0,0.053,0.002,0.109,0.004,0.166c-0.312,0.158-0.64,0.295-0.976,0.406c-0.039-0.045-0.077-0.086-0.115-0.123c-0.601-0.6-1.396-0.93-2.243-0.93s-1.643,0.33-2.243,0.93c-0.039,0.037-0.077,0.078-0.116,0.123c-0.336-0.111-0.664-0.248-0.976-0.406c0.002-0.057,0.004-0.113,0.004-0.166c0-1.75-1.423-3.172-3.172-3.172c-0.054,0-0.11,0-0.168,0.002c-0.158-0.312-0.293-0.639-0.405-0.975c0.044-0.039,0.085-0.078,0.124-0.115c1.236-1.236,1.236-3.25,0-4.486C3.009,7.719,2.969,7.68,2.924,7.642c0.112-0.336,0.247-0.664,0.405-0.976C3.387,6.668,3.443,6.67,3.497,6.67c1.75,0,3.172-1.423,3.172-3.172c0-0.054-0.002-0.11-0.004-0.168c0.312-0.158,0.64-0.293,0.976-0.405C7.68,2.969,7.719,3.01,7.757,3.048c0.6,0.6,1.396,0.93,2.243,0.93s1.643-0.33,2.243-0.93c0.038-0.039,0.076-0.079,0.115-0.123c0.336,0.112,0.663,0.247,0.976,0.405c-0.002,0.058-0.004,0.114-0.004,0.168c0,1.749,1.424,3.172,3.173,3.172c0.054,0,0.109-0.002,0.168-0.004c0.158,0.312,0.293,0.64,0.405,0.976c-0.045,0.038-0.086,0.077-0.124,0.116c-0.6,0.6-0.93,1.396-0.93,2.242c0,0.847,0.33,1.645,0.93,2.244c0.038,0.037,0.079,0.076,0.124,0.115C16.964,12.695,16.829,13.021,16.671,13.334 M10,5.417c-2.528,0-4.584,2.056-4.584,4.583c0,2.529,2.056,4.584,4.584,4.584s4.584-2.055,4.584-4.584C14.584,7.472,12.528,5.417,10,5.417 M10,13.812c-2.102,0-3.812-1.709-3.812-3.812c0-2.102,1.71-3.812,3.812-3.812c2.102,0,3.812,1.71,3.812,3.812C13.812,12.104,12.102,13.812,10,13.812"></path>
+                </svg>
+            </span>
+        </h3>
+        <div class="filters">
+            <div class="type">
+                <h5>نژاد</h5>
+                <ul>
+                    <li>
+                        <label for="aldenborg">الدنبورگ</label><input id="aldenborg" type="checkbox">
+                    </li>
+                    <li>
+                        <label for="trobird">تروبرد</label><input id="trobird" type="checkbox">
+                    </li>
+                    <li>
+                        <label for="arab">عرب</label><input id="arab" type="checkbox">
+                    </li>
+                    <li>
+                        <label for="freezin">فریزین</label><input id="freezin" type="checkbox">
+                    </li>
+                    <li>
+                        <label for="hanorin">هانورین</label><input id="hanorin" type="checkbox">
+                    </li>
+                    <li>
+                        <label for="heleshtain">هلشتاین</label><input id="heleshtain" type="checkbox">
+                    </li>
+                </ul>
+            </div>
+            <div class="color">
+                <h5>رنگ</h5>
+                <ul id="color_collapse" class="collapse show" style="">
+                    <li>
+                        <label for="white">
+                            سفید
+                        </label>
+                        <input type="checkbox" class="color-input" name="color-item" id="white" data-val="سفید">
+                    </li>
+                    <li>
+                        <label for="black">
+                            سیاه
+                        </label>
+                        <input type="checkbox" class="color-input" name="color-item" id="black" data-val="سیاه">
+                    </li>
+                    <li>
+                        <label for="brown">
+                            قهوه ای
+                        </label>
+                        <input type="checkbox" class="color-input" name="color-item" id="brown" data-val="نیله">
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <label for="horseRate"><h5>امتیاز</h5></label>
+                <select id="horseRate">
+                    <option selected="" value="0">بدون ستاره</option>
+                    <option value="5">۵ ستاره</option>
+                    <option value="4">۴ ستاره</option>
+                    <option value="3">۳ ستاره</option>
+                    <option value="2">۲ ستاره</option>
+                    <option value="1">۱ ستاره</option>
+                </select>
+            </div>
+            <button> فیلتر کنید</button>
+        </div>
+    </aside>
+    <section id="main-section">
+        <div class="main-text">
+            <div class="row">
+                <div class="col-6">
+                    <div class="item trobird brown" data-star="0">
+                        <div class="image-box">
+                            <img class="lazy loaded"
+                                 src="https://horsepedia.ir/wp-content/uploads/2020/04/Big-Ben-horse.jpg">
+                            <div class="stars">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="#"><h3>بیگ بن (big ben)</h3></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="item aldenborg black" data-star="0">
+                        <div class="image-box">
+                            <img class="lazy loaded"
+                                 src="https://horsepedia.ir/wp-content/uploads/2020/04/stroller-horse.jpg">
+                            <div class="stars">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="#"><h3>استرولر (stroller)</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="item arab black" data-star="0">
+                        <div class="image-box">
+                            <img class="lazy loaded"
+                                 src="https://horseyhooves.com/wp-content/uploads/2021/12/Black-Arabian-Stallion-horse-breed-735x393.jpg.webp">
+                            <div class="stars">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <a href="#"><h3>arab عرب</h3></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer id="footer">
+    <div class="container pt-5">
+        <div class="main-footer row ">
+            <div class="about-us col-lg-4 col-12">
+                <div>
+                    <a href="./index.html">
+                        <img src="../assets/images/logo.png" alt="logo">
+                    </a>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                        مورد
+                        نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد
+                        گذشته
+                        حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد.
+                    </p>
+                </div>
+            </div>
+            <div class="quick-access col-lg-4 col-12 px-5">
+                <div class="d-flex align-items-center after1">
+                    <img src="../assets/icons/arrow.svg" alt="">
+                    <h3>دسترسی سریع</h3>
+                </div>
+                <div class="quick-access-menu">
+                    <ul class="d-flex justify-content-between">
+                        <li>
+                            <ul>
+                                <li><a href="#">نژاد های اسب</a></li>
+                                <li><a href="#">دوره های آموزشی</a></li>
+                                <li><a href="#">سوارکاران</a></li>
+                                <li><a href="#">مربی ها</a></li>
+                                <li><a href="#">معرفی اسب ها</a></li>
+                                <li><a href="#">باشگاه های اسب سواری</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li>
+                            <ul>
+                                <li><a href="#">قوانین و مقررات</a></li>
+                                <li><a href="#">تماس با ما</a></li>
+                                <li><a href="#">درباره ما</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mail-news-contact-us col-lg-4 col-12 d-flex flex-column gap-3">
+                <div class="d-flex align-items-center after2">
+                    <img src="../assets/icons/contact%20copy.svg" alt="">
+                    <h3>خبرنامه</h3>
+                </div>
+                <div class="news-mail">
+                    <p class="mb-2">با عضویت در خبرنامه از آخرین اخبار و... زودتر از بقیه باخبر شوید.</p>
+                    <div class="input">
+                        <label>
+                            <input type="text" placeholder="آدرس ایمیل...">
+                        </label>
+                        <button>ثبت</button>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center after3">
+                    <img src="../assets/icons/contact%20copy.svg" alt="">
+                    <h3>تماس با ما</h3>
+                </div>
+                <div class="address ">
+                    <div class="d-flex align-items-center mb-2">
+                        <img src="../assets/icons/location.svg" alt="">
+                        <p>تهران - میدان انقلاب، ساختمان تجاری ایمان، طبقه دوم، واحد 147</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="../assets/icons/phone.svg" alt="">
+                        <p>09106637221 - 09383055953</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="down-footer row d-flex align-items-center py-4">
+            <div class="col-12 col-sm-6 d-flex gap-3">
+                <div class="icon-holder"><img src="../assets/icons/insta.svg" alt="ins"></div>
+                <div class="icon-holder"><img src="../assets/icons/twitter.svg" alt="twi"></div>
+                <div class="icon-holder"><img src="../assets/icons/facebook.svg" alt="fac"></div>
+                <div class="icon-holder"><img src="../assets/icons/linkedin.svg" alt="lin"></div>
+                <div class="icon-holder"><img src="../assets/icons/utube.svg" alt="utu"></div>
+                <div class="icon-holder"><img src="../assets/icons/google%20plus.svg" alt="goo"></div>
+                <div class="icon-holder"><img src="../assets/icons/aparat.svg" alt="apa"></div>
+            </div>
+            <div class="col-12 col-sm-6 d-flex">
+                <div class="d-flex">
+                    <div class="logo"><a href="./index.html"><img src="../assets/images/logo.png" alt="logo"></a></div>
+                    <div>
+                        <p>&copy Copyright Horses CO.</p>
+                        <p>All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+</footer>
+
+<script src="../assets/js/app.js"></script>
+<script src="../assets/js/horses.js"></script>
+</body>
+</html>

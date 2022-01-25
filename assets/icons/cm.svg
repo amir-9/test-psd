@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+	<title>news</title>
+	<defs>
+		<image  width="12" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAAXNSR0IB2cksfwAAAIpQTFRFlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWFRvGUAAAAC50Uk5TACmEyevv05M7SdD/5GkD6PddrNz5/L/qR+lth/CIChWy8e7Wn0+O9dGUPUAuBKwjPH8AAABYSURBVHicTY7FEYAAEMQWl8Pd3aX/9mAYLK/kFwAMy/GCKMk4UVS60HQDskk3lg2HXlx4XxDoH/4/gs9DRPHjfgKkt2d5gbIiquOm7XoDGMZpjpZ128+ZA+LMCATuQEbEAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="news">
+		<g id="4">
+			<use id="cm" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

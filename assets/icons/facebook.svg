@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 16" width="10" height="16">
+	<title>footer</title>
+	<defs>
+		<image  width="10" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAQCAMAAAAYoR5yAAAAAXNSR0IB2cksfwAAAK5QTFRFqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampZQnIjQAAADp0Uk5TAAFEt+HrzEsX9v/vXX3wXMD9uVhNGsX5Yw4qMtL6gy0JUNX80D1a5svp6Mc5BBEUdA9macr7a26wW6boQjAAAAB6SURBVHicZczbAoFAAIThUUuayJmklXORQuX0/i9ml73z38x3NQDQsGzRbDlKaNsu6XU0u1T5Pc0+B8PReKI55SzQOw8XEeUyDldYb/wt6Xq7PQ4JvwkLTnqU6uqUnZEXl5Tyeity81DiV0ZZ/bPm/WEYkU/DVyLeaj4Fygm7Zvy5rAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="footer">
+		<use id="facebook" href="#img1" x="0" y="0" />
+	</g>
+</svg>

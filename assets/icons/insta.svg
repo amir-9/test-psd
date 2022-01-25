@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>footer</title>
+	<defs>
+		<image  width="16" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAAOpQTFRFqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqamp/dhSNwAAAE50Uk5TTNjt9fj23//ZxdPw5xAAAtfeyts5HCri8+BHCEP89Ozxvjw1wu/D0uYByffEBOvaC8fART79zMhR6VUPVM6DicZLtOOzTfnRBgwH1NXc7X559AAAALxJREFUeJw9j+USwkAMhFMNUAhSHIrb4e5upcj7vw7XMtz+yGS/2UwSAEn+S1E1CUBHIZ8/gDoYwgdDFI6oIAsQJaKYAKaJSjyRTKV/IJPN5fJRq4BYBKNULlkVnqaqpdXSdVAbpPvIU7PF2h1Qu73+4AcCxtAFIxrjxPXTWZfNOVjQElfrzWbZwi3tPEB7RJlvO5AHjjx9Ol9S1xtv+MjdfjBG5DhEjD356Tqar/f7ZTfd+uHPgaRoQooEXwoVFr+iOXU2AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="footer">
+		<use id="insta" href="#img1" x="0" y="0" />
+	</g>
+</svg>

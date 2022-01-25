@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 14" width="16" height="14">
+	<title>footer</title>
+	<defs>
+		<image  width="16" height="14" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAMAAAAR8Wy4AAAAAXNSR0IB2cksfwAAAMxQTFRFqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampeKTvJAAAAER0Uk5TACVvdTIEFCpwSuv/9pinOFaJBw3f41xAylMprBAJttugnP09wvtHIfEeUv61sY6pAUbFzxI3fLcZNqr3zmYDBjFfemQkapqgAAAAlUlEQVR4nE3PeReBQBQF8Gsp8kJU9kTWZCc7ke//nTQzifvPO78758y8Ab5JpTNZSDJyeWGlQKQWS2VoVKlG1g1iMWuoEzWaOlrc1O7A6kbT7vUdXmjAYDiiX8bARP3z1I2umxleUszZe9bCSQqFFdIy8WotdtpshXcy0971Dyb38cSPz5crk3e7P+JPBc9XGL79IOYHT8IOWZp1I3QAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="footer">
+		<use id="twitter" href="#img1" x="0" y="0" />
+	</g>
+</svg>

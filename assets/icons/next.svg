@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 20" width="52" height="20">
+	<title>riders</title>
+	<defs>
+		<image  width="52" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAUCAMAAAD1Cu7vAAAAAXNSR0IB2cksfwAAAFpQTFRFZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRk/BZHmQAAAB50Uk5TACfW1w8o3P/CCynFFdsWxsfA2tQsGRoH8uvxzs3Ed1Y7xgAAAHRJREFUeJydk1kSgCAMQwsKdQFF3Lf7X1NkPIBp/t+0TRqiT0oXJYEylqsaZBrLrUMZjzMmMR3IKMs9yiQPguCeATXbRB4nNwNaVorM235AOiXQJVtPZITM8hxuQMNNlMdfIocFP2yuhmSW5Rst4Vt3/dv4B66mFR38DpRVAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="riders">
+		<use id="next" href="#img1" x="0" y="0" />
+	</g>
+</svg>

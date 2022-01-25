@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 20" width="18" height="20">
+	<title>header</title>
+	<defs>
+		<image  width="18" height="20" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAMAAAC3SZ14AAAAAXNSR0IB2cksfwAAAIRQTFRFvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8THIM3wAAACx0Uk5TAAJlythkAXf/NvaHhqiRRvwDlgp+3CFEHk4tm+b7mi5d52D5M+6l6CxodNlEJOqIAAAAkElEQVR4nIXQyRaCMBBE0UYCNCgQ5kEQZBT4//9TjGmDG9/yruoUwJ520hnTDQ0o08J3lklkO4Icm+iMny5EriSXyJPkEflcCPeJglBQGHxXRHHCeRJHoJZmWQr/ygvDKHIFymtVI9bVrZHSVnLXvRXS9Uj13S7DiErj8DpmwkOTCeV8pPkBC/60wLqxQ9v6BCSBCwDXo7oGAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="header">
+		<g id="unregistered">
+			<use id="user" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

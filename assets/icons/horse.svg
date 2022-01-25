@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 30" width="28" height="30">
+	<title>count</title>
+	<defs>
+		<image  width="28" height="30" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAeCAMAAAAIG46tAAAAAXNSR0IB2cksfwAAAbZQTFRFabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElabElVRfgOwAAAJJ0Uk5TUJjJ3efUr2cdAMD/+85MrnceAsL92o0UvMgO6WgN8KLgKe/0JYHLEWJjC6bMMTThDAOO2aFmRp/+8daFIb0jQsrDKuw4wT31XEVALVKk49AZ9jadx9/8dgF7B7PVfRCVlO34W3H5S0E3OVoz4iKDVL5qF9JTHHTYjNGTBXqqoASpfHObCqtPCNOGueYmnnC7Eg+C1jqMAAABhUlEQVR4nG3S+TsCQRgH8KXIeHMVCmG1USIkuW/lpiK5yZF73eW+75v/2Gy1287y/WGeZ/az7+zMvEtRcfEyeUKiIgn9DZUM4ShTUv/BNIhGnp6hkqKaR8jMytZIUAux5ORKMAWX8JinyyexAAqFzwJdRKKeMRQLWGIk0VRqLuONKbeQiFCFnMdKU5UErdXCqkpbjb3WQFTWiQ4D9Q2NTZoYNreAJNpWHtvapQbQ0RnFrr8GkOCIIDBdeXSJkyFV1h3Gnt6+/gGjeXBomFCXm0PPSGR9lcU+6qWVERrzwfgERiZ+0h7d+5SmaDpsM7MecM1hnPcvLC4Jx17mLKBYUQKzinFsbX0j1ovNLYzD7LoPYJvb7Y74Ns27GBf39mmAAxZRh0ExhgJHxzScuE/xO5MsJaazc7hgJ+rg8irpOgA3bgJv4e4eqR4WcFetIXA+ivHJ+4z/IYf+hZtY/aAWY9D2iseLt/fw7D50Q1R+6BD69G2Lmx2Lewqler6+/0eEftQ+0ZNfcu5THQRVE8AAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="count">
+		<use id="ico" href="#img1" x="0" y="0" />
+	</g>
+</svg>

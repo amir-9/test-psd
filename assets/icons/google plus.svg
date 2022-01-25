@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+	<title>footer</title>
+	<defs>
+		<image  width="16" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IB2cksfwAAAQhQTFRFqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampqampNHbQWQAAAFh0Uk5TAGqdr+7v2J4Kk84VAmD/zxAsYqFoZEWfWaIpejMyFOQ4edu9uzTL44GVuR0wzCs5s7ETGiXFxAdLrfrRHrSyTlQuLb4EIB9BgwEnqfugZc0FMXshbbiLHGmJ05MAAADBSURBVHicNY7XVsJgEISHXh2pAaIGqaEjEEBFULDQu8D7vwl/EjIXs2e+LWcBwGZ3OF1ujxc3+fyB4B3vQ1YOMyI8ypgF4gaQmLBAkinhMh+AxycdKGk+A5msAuTyxkihqJbKlSpqUr0o1XQSbNTZBF4o1DLvJOhoo6N1e1pHpP5r5u2dgw9gONK7nwP713gy4vcPfv9EnnKm43mKC3N9Sc2ojZVsgjU3Ro1sdybYO3mQleP/dm+9Pomqqv90vtziFUvvFEHZ3cVXAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="footer">
+		<use id="google plus" href="#img1" x="0" y="0" />
+	</g>
+</svg>

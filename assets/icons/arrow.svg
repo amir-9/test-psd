@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 18" width="20" height="18">
+	<title>footer</title>
+	<defs>
+		<image  width="20" height="18" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAMAAABsDg4iAAAAAXNSR0IB2cksfwAAAPNQTFRFzUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUoczUocft6mWgAAAFF0Uk5TAAcyCwaosiCYobFNMyUBGTAxOacsNat7HWSkppk7D3qinZrQK07qXgoSIWMRDo8vFBo4aLRBAoeIyiIjFnkDDFuLDYmRBLUeoGG9Ro5psxiq2q3hAAAAAMBJREFUeJxjYEAGjEzMDBiAhZWNHVOUg5OLG0ix8/Dygfn8AoICQsIiomLiEgySUtIysgwMcvJiCopKCsoqDKpq6gwamlraHDq6wnr6Bjo6hkpGxiamGmCdGmbmFmAGH6clhxXMfGsuG4iT9Gzt4JZyc5iBaTN7JJc4OEJcYOaEJOhsDPWRi7grTMzUzZ0RYpEHxCKgkzy9vBkkfaBO8vUDOklSmlVGlIHBXz7AA+F4oDchZvjrI7yJNUAIBx00kAFhghWuQ+6ChQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="footer">
+		<use id="arrow" href="#img1" x="0" y="0" />
+	</g>
+</svg>

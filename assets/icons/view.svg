@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+	<title>races</title>
+	<defs>
+		<image  width="40" height="40" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAAXNSR0IB2cksfwAAAf5QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////ya9lNwAAAKp0Uk5TACpflrvN0cOldDsOAVO1+P9+GTO579/d6OJkbfHPQSccGiI1Y7byEoJVA6bCd5BY7L1O/HE0mxHbfzaAtNAIFObzLQW8XGadS/6xBK35RdQf2AqOSin1W3WUQjyJmpJAkyz6fBjeg1IC9jnJJIq+B/DpqGsQYB3aZWf0yLIGmWoyzhekrH0bqSBHi/1axev7hz/LeO6h2VGPuNfl58afbAsuzCsh3B7KFQlTt9nqAAACD0lEQVR4nI2U+1tMQRjHR2ol1X6T3SVKtYUuikLbKpFLVtF2WyWlZZdKtJGKhEJyKVIIueRS+i+9J4855+zMPM95f5rvdz7nvZx5ZhjTY13M+tg424b4jQmbmDoSk5Lt+B9xKZtVXOqWNcLhdG1dW2xLk3Pbd9BmekrGzsysbHdO7i5S8bsl3B6tXF4+1+4CMgqzBG4v2UXmAYr3AfujZyopBQ5Ef3zQCRwyW2UeoFxsx+sASkzOYaAiXwRZGlB5xKCrjuJYtYRjx08AJw36FFAj4xg77cOZWl3W4ew5OVhbD4dfr9wAZ6McZE1AMxctAeQqOHYeaOXCC7SpwAt0Dly0AxdVYLsPHcaMnSrwEtDFRfAy6lRgHnCFi1AYDbJz0eIqcI2L7gr09CrA6wj06aoVuCHneu242a9LfwQDfil4C7ht1F2Kw24uRXjQaPQNwHdH5IaGgRGzdRe4lyRwo8D9MbOX+ADoeWj2Ho0Dtonor/sf0+16kqoboacR7fpOCv2MFZFvfxYz1U35y56/CJN8SaTkb7zyaO9DxDVdWD/zmlaBN7M0zFsxJwvNeXz87Zl/52as+j0wPiWSrPHDwsdPnxfDX75++7cddBE5JCHpllRNZk5853KJ+vkhP7Wo+EnVbb+skEu/KadkIjGClDM921J16rNy2VJ1IlcskVr10T+WctJEXisga4ntWP0LV6li1MPLGGYAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="races">
+		<g id="2 HOVER">
+			<use id="view" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

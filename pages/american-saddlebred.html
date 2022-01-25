@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../assets/css/bootstrap-5.1.3-dist/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/blog-style.css">
+    <title>سدل برد</title>
+</head>
+<body>
+<header id="header" class="d-none d-md-flex">
+    <nav class="navbar">
+        <div class="sign-in">
+            <span class="user">
+                <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M20.822 18.096c-3.439-.794-6.641-1.49-5.09-4.418 4.719-8.912 1.251-13.678-3.732-13.678-5.081 0-8.464 4.949-3.732 13.678 1.597 2.945-1.725 3.641-5.09 4.418-2.979.688-3.178 2.143-3.178 4.663l.005 1.241h10.483l.704-3h1.615l.704 3h10.483l.005-1.241c.001-2.52-.198-3.975-3.177-4.663zm-8.231 1.904h-1.164l-.91-2h2.994l-.92 2z"/>
+                </svg>
+            </span>
+            <span class="search">
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path d="M18.125,15.804l-4.038-4.037c0.675-1.079,1.012-2.308,1.01-3.534C15.089,4.62,12.199,1.75,8.584,1.75C4.815,1.75,1.982,4.726,2,8.286c0.021,3.577,2.908,6.549,6.578,6.549c1.241,0,2.417-0.347,3.44-0.985l4.032,4.026c0.167,0.166,0.43,0.166,0.596,0l1.479-1.478C18.292,16.234,18.292,15.968,18.125,15.804 M8.578,13.99c-3.198,0-5.716-2.593-5.733-5.71c-0.017-3.084,2.438-5.686,5.74-5.686c3.197,0,5.625,2.493,5.64,5.624C14.242,11.548,11.621,13.99,8.578,13.99 M16.349,16.981l-3.637-3.635c0.131-0.11,0.721-0.695,0.876-0.884l3.642,3.639L16.349,16.981z"></path>
+                </svg>
+            </span>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">دوره های آموزشی</a></li>
+                <li class="mid"><a href="#">نژاد ها</a></li>
+                <li><a href="#">معرفی</a></li>
+                <li><a href="#">باشگاه ها</a></li>
+            </ul>
+        </div>
+        <div class="logo"><a href="./index.html"><img src="../assets/images/logo.png" alt="logo"></a></div>
+    </nav>
+    <div class="search-cont d-none">
+        <div id="searchForm1" class="search-box d-flex justify-content-center">
+        <button class="close-search">
+            <svg class="svg-icon" viewBox="0 0 20 20">
+                <path fill="none"
+                      d="M11.469,10l7.08-7.08c0.406-0.406,0.406-1.064,0-1.469c-0.406-0.406-1.063-0.406-1.469,0L10,8.53l-7.081-7.08 c-0.406-0.406-1.064-0.406-1.469,0c-0.406,0.406-0.406,1.063,0,1.469L8.531,10L1.45,17.081c-0.406,0.406-0.406,1.064,0,1.469 c0.203,0.203,0.469,0.304,0.735,0.304c0.266,0,0.531-0.101,0.735-0.304L10,11.469l7.08,7.081c0.203,0.203,0.469,0.304,0.735,0.304 c0.267,0,0.532-0.101,0.735-0.304c0.406-0.406,0.406-1.064,0-1.469L11.469,10z"></path>
+            </svg>
+        </button>
+        <form class="input align-self-center">
+            <label>
+                <input type="search" placeholder="کلمه مورد نظر را وارد کنید..">
+            </label>
+            <button>
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path fill="none"
+                          d="M12.323,2.398c-0.741-0.312-1.523-0.472-2.319-0.472c-2.394,0-4.544,1.423-5.476,3.625C3.907,7.013,3.896,8.629,4.49,10.102c0.528,1.304,1.494,2.333,2.72,2.99L5.467,17.33c-0.113,0.273,0.018,0.59,0.292,0.703c0.068,0.027,0.137,0.041,0.206,0.041c0.211,0,0.412-0.127,0.498-0.334l1.74-4.23c0.583,0.186,1.18,0.309,1.795,0.309c2.394,0,4.544-1.424,5.478-3.629C16.755,7.173,15.342,3.68,12.323,2.398z M14.488,9.77c-0.769,1.807-2.529,2.975-4.49,2.975c-0.651,0-1.291-0.131-1.897-0.387c-0.002-0.004-0.002-0.004-0.002-0.004c-0.003,0-0.003,0-0.003,0s0,0,0,0c-1.195-0.508-2.121-1.452-2.607-2.656c-0.489-1.205-0.477-2.53,0.03-3.727c0.764-1.805,2.525-2.969,4.487-2.969c0.651,0,1.292,0.129,1.898,0.386C14.374,4.438,15.533,7.3,14.488,9.77z"></path>
+                </svg>
+            </button>
+        </form>
+    </div>
+    </div>
+</header>
+
+<div class="container">
+    <aside id="side">
+        <div class="blog-category">
+            <div>
+                <h4>
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path fill="none"
+                              d="M2.25,12.584c-0.713,0-1.292,0.578-1.292,1.291s0.579,1.291,1.292,1.291c0.713,0,1.292-0.578,1.292-1.291S2.963,12.584,2.25,12.584z M2.25,14.307c-0.238,0-0.43-0.193-0.43-0.432s0.192-0.432,0.43-0.432c0.238,0,0.431,0.193,0.431,0.432S2.488,14.307,2.25,14.307z M5.694,6.555H18.61c0.237,0,0.431-0.191,0.431-0.43s-0.193-0.431-0.431-0.431H5.694c-0.238,0-0.43,0.192-0.43,0.431S5.457,6.555,5.694,6.555z M2.25,8.708c-0.713,0-1.292,0.578-1.292,1.291c0,0.715,0.579,1.292,1.292,1.292c0.713,0,1.292-0.577,1.292-1.292C3.542,9.287,2.963,8.708,2.25,8.708z M2.25,10.43c-0.238,0-0.43-0.192-0.43-0.431c0-0.237,0.192-0.43,0.43-0.43c0.238,0,0.431,0.192,0.431,0.43C2.681,10.238,2.488,10.43,2.25,10.43z M18.61,9.57H5.694c-0.238,0-0.43,0.192-0.43,0.43c0,0.238,0.192,0.431,0.43,0.431H18.61c0.237,0,0.431-0.192,0.431-0.431C19.041,9.762,18.848,9.57,18.61,9.57z M18.61,13.443H5.694c-0.238,0-0.43,0.193-0.43,0.432s0.192,0.432,0.43,0.432H18.61c0.237,0,0.431-0.193,0.431-0.432S18.848,13.443,18.61,13.443z M2.25,4.833c-0.713,0-1.292,0.578-1.292,1.292c0,0.713,0.579,1.291,1.292,1.291c0.713,0,1.292-0.578,1.292-1.291C3.542,5.412,2.963,4.833,2.25,4.833z M2.25,6.555c-0.238,0-0.43-0.191-0.43-0.43s0.192-0.431,0.43-0.431c0.238,0,0.431,0.192,0.431,0.431S2.488,6.555,2.25,6.555z"></path>
+                    </svg>
+                    <span>دسته بندی مطالب</span>
+                </h4>
+                <ul>
+                    <li><a href="#">مقاله</a></li>
+                    <li><a href="#">نژاد ها</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="random">
+            <h4>
+                <svg class="svg-icon" viewBox="0 0 20 20">
+                    <path fill="none"
+                          d="M16.803,18.615h-4.535c-1,0-1.814-0.812-1.814-1.812v-4.535c0-1.002,0.814-1.814,1.814-1.814h4.535c1.001,0,1.813,0.812,1.813,1.814v4.535C18.616,17.803,17.804,18.615,16.803,18.615zM17.71,12.268c0-0.502-0.405-0.906-0.907-0.906h-4.535c-0.501,0-0.906,0.404-0.906,0.906v4.535c0,0.502,0.405,0.906,0.906,0.906h4.535c0.502,0,0.907-0.404,0.907-0.906V12.268z M16.803,9.546h-4.535c-1,0-1.814-0.812-1.814-1.814V3.198c0-1.002,0.814-1.814,1.814-1.814h4.535c1.001,0,1.813,0.812,1.813,1.814v4.534C18.616,8.734,17.804,9.546,16.803,9.546zM17.71,3.198c0-0.501-0.405-0.907-0.907-0.907h-4.535c-0.501,0-0.906,0.406-0.906,0.907v4.534c0,0.501,0.405,0.908,0.906,0.908h4.535c0.502,0,0.907-0.406,0.907-0.908V3.198z M7.733,18.615H3.198c-1.002,0-1.814-0.812-1.814-1.812v-4.535c0-1.002,0.812-1.814,1.814-1.814h4.535c1.002,0,1.814,0.812,1.814,1.814v4.535C9.547,17.803,8.735,18.615,7.733,18.615zM8.64,12.268c0-0.502-0.406-0.906-0.907-0.906H3.198c-0.501,0-0.907,0.404-0.907,0.906v4.535c0,0.502,0.406,0.906,0.907,0.906h4.535c0.501,0,0.907-0.404,0.907-0.906V12.268z M7.733,9.546H3.198c-1.002,0-1.814-0.812-1.814-1.814V3.198c0-1.002,0.812-1.814,1.814-1.814h4.535c1.002,0,1.814,0.812,1.814,1.814v4.534C9.547,8.734,8.735,9.546,7.733,9.546z M8.64,3.198c0-0.501-0.406-0.907-0.907-0.907H3.198c-0.501,0-0.907,0.406-0.907,0.907v4.534c0,0.501,0.406,0.908,0.907,0.908h4.535c0.501,0,0.907-0.406,0.907-0.908V3.198z"></path>
+                </svg>
+                <span>مطالب تصادفی</span>
+            </h4>
+            <div class="rand-item">
+                <a href="#">
+                    <div class="first-rand"
+                         style="background: url('../assets/images/horse-page/Horse-care.jpg')center/cover"></div>
+                    <h6>هر آنچه که باید درباره مراقبت از اسب ها بدانید..</h6>
+                </a>
+            </div>
+            <div class="rand-item">
+                <a href="#">
+                    <div class="first-rand"
+                         style="background: url('../assets/images/horse-page/Horse-accessories.jpg')center/cover"></div>
+                    <h6>آشنایی با تجهیزات و لوازم اسب که به آن نیاز خواهید داشت..</h6>
+                </a>
+            </div>
+            <div class="rand-item">
+                <a href="#">
+                    <div class="first-rand"
+                         style="background: url('../assets/images/horse-page/horse-lunge.jpg')center/cover"></div>
+                    <h6>آموزش لنژ کردن اسب و تجهیزات مورد نیاز برای آن..</h6>
+                </a>
+            </div>
+        </div>
+    </aside>
+    <section id="main-section">
+        <form id="searchForm2" class="blog-search-box">
+            <label>
+                <input type="search" placeholder="کلمه مورد نظر را وارد کنید..">
+            </label>
+            <button type="submit">
+                <svg id="search-icon" class="search-icon" viewBox="0 0 24 24">
+                    <path fill="#868686"
+                          d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg>
+            </button>
+        </form>
+
+        <div class="main-text">
+            <div class="head">
+                <button>نژاد ها</button>
+                <h5>اسب نژاد سدل برد آمریکایی</h5>
+            </div>
+            <div class="text-info">
+                <ul>
+                    <li>
+                        <i class="fa fa-user"></i>
+                        <span>سمانه پرهیزکار</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-clock"></i>
+                        <span>۲۹ اردیبهشت ۱۳۹۹ </span>
+                    </li>
+                    <li>
+                        <i class="fa fa-comment"></i>
+                        <span>۰ دیدگاه </span>
+                    </li>
+                    <li>
+                        <i class="fa fa-eye"></i>
+                        <span>۷۶۹ بازدید</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="texts">
+                <img class="first-img" src="../assets/images/horse-page/American-Saddlebred-head.jpg" alt="horse">
+                <p>
+                    عموما به آن ها "اسب ساخت آمریکا" گفته می شود، اسب سدل برد در کنتاکی متولد شده و امروزه به یک نژاد
+                    بسیار معروف تبدیل شده است. آن ها به مهربانی، خلق و خوی آرام و گردن های تنومند و شیب دار معروف اند،
+                    سدل بردها هم برای سوارکاری و کشیدن کالسکه ها شناخته شده هستند و هم به عنوان اسب های سواری تفریحی و
+                    رقابتی به کاربرده می شوند.
+
+                    اسب نژاد سدل برد آمریکایی به لطف استایل بدنی خاص و گام های بلندی که برمی دارند تماشای این نژاد
+                    درهنگام حرکت بسیار مهیج و نفس گیر است.
+                </p>
+                <div>
+                    <br>
+                    <h6>
+                        <b>بررسی اجمالی نژاد</b>
+                    </h6>
+                    <p>
+                        <span class="green-bold">وزن: </span>۱۰۰۰ تا ۱۲۰۰ پوند
+                    </p>
+                    <p>
+                        <span class="green-bold">قد:</span> ۱۵ تا ۱۶ وجب
+                    </p>
+                    <p>
+                        <span class="green-bold">نوع ساختار بدنی: </span> اسب سوارکاری لایت (سبک) با عضله بندی متراکم و
+                        یک دم پرپشت در سطح
+                        بالاتر از بدن
+                    </p>
+                    <p>
+                        <span class="green-bold">مناسب برای: </span> تقریبا همه، از کشیدن کالسکه و رقابت سوارکاری گرفته
+                        تا سوارکاری صحرایی(تریل) و
+                        رویدادهای رقابتی
+                    </p>
+                    <p>
+                        <span class="green-bold">امید به زندگی: </span> ۲۵ تا ۳۰ سال
+                    </p>
+                </div>
+                <div class="text-2">
+                    <h4>مشخصات منحصر به فرد نژاد سدل برد</h4>
+                    <p>سدل برد یک اسب سبک است که برای <a href="#">سوارکاری</a> یا کشیدن کالسکه مناسب است. این نژاد از
+                        لحاظ قدی به طور
+                        متوسط بین ۱۵ تا ۱۶ وجب است، و وزن آن عموما بین ۱۰۰۰تا ۱۲۰۰ پوند متغیر است. نریان های این نژاد
+                        بزرگ ترند، بدن های عضله ای تری دارند و وزن های سنگین تری را نسبت به مادیان ها و اسب های اخته که
+                        از لحاظ ژنتیکی کوچک تر هستند، حمل می کنند.</p>
+                    <p>
+                        سدل بردها در رنگ های متنوعی موجود اند. شما رنگ های رایج تری مانند کهر، مشکی، خرمایی، و خاکستری و
+                        همچنین رنگ های کمیابی مانند کرند و خالخال دار را در این نژاد مشاهده می کنید.
+                    </p>
+                    <p>
+                        اسب سدل برد می تواند دارای سه گام و یا پنچ گام باشد. اسب های سه گام در پیاده روی، یورتمه، و
+                        چهارنعل کاربرد دارند و آن ها حرکت زانوی بالا و چشم انداز متحرک را از خود نمایش می دهند. اسب های
+                        پنج گام مانند اسب های سه گام عمل می کنند، به علاوه اینکه آن ها قدم آهسته و حرکت راک نیز انجام می
+                        دهند. قدم آهسته و راک هردو قدم های چهار ضرب هستند که قدرت و ظرافت اسب را درکنار راحت بودن برای
+                        سوارکار نشان می دهند.
+                    </p>
+                    <img src="../assets/images/horse-page/Saddlebred.jpg" alt="horse">
+                </div>
+            </div>
+        </div>
+
+        <div class="comment">
+            <div class="head">
+                <h5>نظرات کاربران ( <span>0</span> نظر )</h5>
+                <span>
+                    <svg class="svg-icon" viewBox="0 0 20 20">
+                        <path d="M17.659,3.681H8.468c-0.211,0-0.383,0.172-0.383,0.383v2.681H2.341c-0.21,0-0.383,0.172-0.383,0.383v6.126c0,0.211,0.172,0.383,0.383,0.383h1.532v2.298c0,0.566,0.554,0.368,0.653,0.27l2.569-2.567h4.437c0.21,0,0.383-0.172,0.383-0.383v-2.681h1.013l2.546,2.567c0.242,0.249,0.652,0.065,0.652-0.27v-2.298h1.533c0.211,0,0.383-0.172,0.383-0.382V4.063C18.042,3.853,17.87,3.681,17.659,3.681 M11.148,12.87H6.937c-0.102,0-0.199,0.04-0.27,0.113l-2.028,2.025v-1.756c0-0.211-0.172-0.383-0.383-0.383H2.724V7.51h5.361v2.68c0,0.21,0.172,0.382,0.383,0.382h2.68V12.87z M17.276,9.807h-1.533c-0.211,0-0.383,0.172-0.383,0.383v1.755L13.356,9.92c-0.07-0.073-0.169-0.113-0.27-0.113H8.851v-5.36h8.425V9.807z"></path>
+                    </svg>
+                </span>
+            </div>
+            <form>
+                <div class="inputs row">
+                    <div>
+                        <label for="name">نام شما</label>
+                        <input class="form-control" type="text" id="name" placeholder="نام">
+                    </div>
+                    <div>
+                        <label for="mail">ایمیل شما</label>
+                        <input class="form-control" type="text" id="mail" placeholder="آدرس ایمیل">
+                    </div>
+                    <div class="stars">
+                        <fieldset class="rate">
+                            <input type="radio" id="rating10" name="rating" value="10"/><label for="rating10"
+                                                                                               title="5 stars"></label>
+                            <input type="radio" id="rating9" name="rating" value="9"/><label class="half" for="rating9"
+                                                                                             title="4 1/2 stars"></label>
+                            <input type="radio" id="rating8" name="rating" value="8"/><label for="rating8"
+                                                                                             title="4 stars"></label>
+                            <input type="radio" id="rating7" name="rating" value="7"/><label class="half" for="rating7"
+                                                                                             title="3 1/2 stars"></label>
+                            <input type="radio" id="rating6" name="rating" value="6"/><label for="rating6"
+                                                                                             title="3 stars"></label>
+                            <input type="radio" id="rating5" name="rating" value="5"/><label class="half" for="rating5"
+                                                                                             title="2 1/2 stars"></label>
+                            <input type="radio" id="rating4" name="rating" value="4"/><label for="rating4"
+                                                                                             title="2 stars"></label>
+                            <input type="radio" id="rating3" name="rating" value="3"/><label class="half" for="rating3"
+                                                                                             title="1 1/2 stars"></label>
+                            <input type="radio" id="rating2" name="rating" value="2"/><label for="rating2"
+                                                                                             title="1 star"></label>
+                            <input type="radio" id="rating1" name="rating" value="1"/><label class="half" for="rating1"
+                                                                                             title="1/2 star"></label>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="row">
+                    <label for="description">توضیحات</label>
+                    <textarea class="form-control" id="description" placeholder="توضیحات"></textarea>
+                    <div id="left-chars">
+                        <span id="leftCharacters">1500</span>
+                        <span>کاراکتر باقی مانده</span>
+                    </div>
+                </div>
+                <button>فرستادن دیدگاه</button>
+            </form>
+
+        </div>
+
+        <div id="showComments">
+
+        </div>
+    </section>
+</div>
+
+<footer id="footer">
+    <div class="container pt-5">
+        <div class="main-footer row ">
+            <div class="about-us col-lg-4 col-12">
+                <div>
+                    <a href="./index.html">
+                        <img src="../assets/images/logo.png" alt="logo">
+                    </a>
+                    <p>
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی
+                        مورد
+                        نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد
+                        گذشته
+                        حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد.
+                    </p>
+                </div>
+            </div>
+            <div class="quick-access col-lg-4 col-12 px-5">
+                <div class="d-flex align-items-center after1">
+                    <img src="../assets/icons/arrow.svg" alt="">
+                    <h3>دسترسی سریع</h3>
+                </div>
+                <div class="quick-access-menu">
+                    <ul class="d-flex justify-content-between">
+                        <li>
+                            <ul>
+                                <li><a href="#">نژاد های اسب</a></li>
+                                <li><a href="#">دوره های آموزشی</a></li>
+                                <li><a href="#">سوارکاران</a></li>
+                                <li><a href="#">مربی ها</a></li>
+                                <li><a href="#">معرفی اسب ها</a></li>
+                                <li><a href="#">باشگاه های اسب سواری</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <ul>
+                                <li><a href="#">قوانین و مقررات</a></li>
+                                <li><a href="#">تماس با ما</a></li>
+                                <li><a href="#">درباره ما</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mail-news-contact-us col-lg-4 col-12 d-flex flex-column gap-3">
+                <div class="d-flex align-items-center after2">
+                    <img src="../assets/icons/contact%20copy.svg" alt="">
+                    <h3>خبرنامه</h3>
+                </div>
+                <div class="news-mail">
+                    <p class="mb-2">با عضویت در خبرنامه از آخرین اخبار و... زودتر از بقیه باخبر شوید.</p>
+                    <div class="input">
+                        <label>
+                            <input type="text" placeholder="آدرس ایمیل...">
+                        </label>
+                        <button>ثبت</button>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center after3">
+                    <img src="../assets/icons/contact%20copy.svg" alt="">
+                    <h3>تماس با ما</h3>
+                </div>
+                <div class="address ">
+                    <div class="d-flex align-items-center mb-2">
+                        <img src="../assets/icons/location.svg" alt="">
+                        <p>تهران - میدان انقلاب، ساختمان تجاری ایمان، طبقه دوم، واحد 147</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img src="../assets/icons/phone.svg" alt="">
+                        <p>09106637221 - 09383055953</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="down-footer row d-flex align-items-center py-4">
+            <div class="col-12 col-sm-6 d-flex gap-3">
+                <div class="icon-holder"><img src="../assets/icons/insta.svg" alt="ins"></div>
+                <div class="icon-holder"><img src="../assets/icons/twitter.svg" alt="twi"></div>
+                <div class="icon-holder"><img src="../assets/icons/facebook.svg" alt="fac"></div>
+                <div class="icon-holder"><img src="../assets/icons/linkedin.svg" alt="lin"></div>
+                <div class="icon-holder"><img src="../assets/icons/utube.svg" alt="utu"></div>
+                <div class="icon-holder"><img src="../assets/icons/google%20plus.svg" alt="goo"></div>
+                <div class="icon-holder"><img src="../assets/icons/aparat.svg" alt="apa"></div>
+            </div>
+            <div class="col-12 col-sm-6 d-flex">
+                <div class="d-flex">
+                    <div class="logo"><a href="./index.html"><img src="../assets/images/logo.png" alt="logo"></a></div>
+                    <div>
+                        <p>&copy Copyright Horses CO.</p>
+                        <p>All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</footer>
+
+<!--<script src="../assets/js/app.js"></script>-->
+<script src="../assets/node_modules/jquery/dist/jquery.js"></script>
+<script src="../assets/js/new-app.js"></script>
+<script>
+    App.init();
+</script>
+</body>
+</html>

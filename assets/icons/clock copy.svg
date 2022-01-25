@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" width="12" height="12">
+	<title>news</title>
+	<defs>
+		<image  width="12" height="12" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAAXNSR0IB2cksfwAAALRQTFRFlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWmM+2fAAAADx0Uk5TAAJ2xNfFdwQbzNmOQT/Yzh/CEGdrDsEGegqytgh9x4qrr4bJSrG4Rkhi6lWL5j6EfNpXI4C+DL3Qh9Yhbz91ZQAAAINJREFUeJwdjNkSgjAQBEdFI4smeMYDAooab+ON+v//5YZ9mKnumloAtXojCJotAb52SFGnG0kVAyLs9TEYYjRWGhOaArM5kFAKk/E0X3AsC9CKe73hsATacu/2hwrM0b9MT2dcCrhr4ul2F/IBrZ4vT/pdso2VzKz9fMtf5ZwhMo79H20TChlqUEGEAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="news">
+		<g id="4">
+			<use id="clock copy" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>
